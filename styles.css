@@ -220,21 +220,27 @@ margin: 0 auto;
 
 .highlight__wrapper{
     display: flex;
+    flex-wrap: wrap;
 }
 .highlight{
     padding: 0 24px;
     width: calc(100%/3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .highlight__image{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
    
     
 }
 .highlight__para{
     text-align: center;
     max-width:280px ;
+    
 }
 .fa-bolt{
     border: 2px solid #7342d6 ;
@@ -243,6 +249,8 @@ margin: 0 auto;
     color: #7342d6;
     font-size: 20px;
     border-radius: 4px;
+    display: flex;
+    
 }
 .highlight__subtitle{
     font-size: 20px;
@@ -409,6 +417,9 @@ a:hover{
   .latest__book{
     width: 50%;
   }
+  highlight{
+    width: 100%;
+  }
 }
 
 
@@ -420,6 +431,10 @@ a:hover{
 
   .btn__menu{
     display: block;
+  }
+
+  highlight{
+    width: 100%;
   }
 
 }
