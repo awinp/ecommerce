@@ -417,8 +417,11 @@ a:hover{
   .latest__book{
     width: 50%;
   }
-  highlight{
+  .highlight{
     width: 100%;
+  }
+  .highlight__image{
+    margin-bottom: 32px;
   }
 }
 
